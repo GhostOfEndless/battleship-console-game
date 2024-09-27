@@ -12,7 +12,7 @@
 ### Запуск
 1. Скачайте архив с репозиторием в удобное место у себя на компьютере:
     ```
-    https://github.com/GhostOfEndless/battleship-console-game.git
+    git clone https://github.com/GhostOfEndless/battleship-console-game.git
     ```
 2. Далее перейдите в директорию проекта:
     ```
