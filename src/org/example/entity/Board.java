@@ -69,9 +69,9 @@ public class Board {
 
         // Проверка окружения
         int startRow = Math.max(0, row - 1);
-        int endRow = Math.min(ships.length - 1, row + size + (vertical ? 0 : 1));
+        int endRow = Math.min(ships.length - 1, vertical ? row + size + 1 : row + 1);
         int startCol = Math.max(0, col - 1);
-        int endCol = Math.min(ships.length - 1, col + size + (vertical ? 1 : 0));
+        int endCol = Math.min(ships.length - 1, vertical ? col + 1 : col + size + 1);
 
         return isAreaClear(startRow, endRow, startCol, endCol);
     }
